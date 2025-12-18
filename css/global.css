@@ -36,15 +36,6 @@ ol, ul {
     list-style: none;
 }
 
-/* Remove default quotes from blockquote and q */
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
 
 /* Collapse table borders and spacing */
 table {

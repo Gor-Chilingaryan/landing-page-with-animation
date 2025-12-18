@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="A comprehensive landing page showcasing selectors, box model, backgrounds, flexbox, grid, animations, media queries, tables, and testimonials."
-    />
-    <meta name="author" content="Gor CHilingaryan" />
-    <meta name="keywords" content="HTML, CSS, Animation, Grid, Flex" />
-    <link rel="icon" href="./images/icons/css-icon.svg" type="image/x-icon" />
-    <title>landing page with animations</title>
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-background">
-        <div class="circle circle-right"></div>
-        <div class="circle circle-center"></div>
-        <div class="circle circle-left"></div>
-        <div class="container">
-          <h1 class="header-title">
-            <img
-              class="header-title_img"
-              src="./images/icons/stars-header.svg"
-              alt="three starts line"
-            />
-            CSS Fundamentals Learning Kit
-          </h1>
-          <p class="header-title-paragraph">
-            Master CSS Concepts with Interactive Examples
-          </p>
-          <p class="header-description">
-            A comprehensive landing page showcasing selectors, box model,
-            backgrounds, flexbox, grid, animations, media queries, tables, and
-            testimonials.
-          </p>
-          <div class="header-btns">
-            <button class="header-btn-start">
-              Get Started
-              <span 
-                ><img class="header-btn-start_icon"
-                  src="./images/icons/Line-Arrow-Right.svg"
-                  alt="Line to Right"
-              /></span>
-            </button>
-            <button class="header-btn-examples">View Examples</button>
-          </div>
-        </div>
-      </div>
-    </header>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="A comprehensive landing page showcasing selectors, box model, backgrounds, flexbox, grid, animations, media queries, tables, and testimonials."
+		/>
+		<meta name="author" content="Gor CHilingaryan" />
+		<meta name="keywords" content="HTML, CSS, Animation, Grid, Flex" />
+		<link rel="icon" href="./images/icons/css-icon.svg" type="image/x-icon" />
+		<title>landing page with animations</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<header>
+			<div class="header-wrapper">
+				<div class="circle circle-right"></div>
+				<div class="circle circle-center"></div>
+				<div class="circle circle-left"></div>
+				<div class="container">
+					<!-- fix this part -->
+					<div>
+						<h1 class="header-title">
+							<img
+								class="header-title_img"
+								src="./images/icons/stars-header.svg"
+								alt="three starts line"
+							/>
+							CSS Fundamentals Learning Kit
+						</h1>
+					</div>
+					<!-- fix this part -->
+					<p class="header-title-paragraph">
+						Master CSS Concepts with Interactive Examples
+					</p>
+					<p class="header-description">
+						A comprehensive landing page showcasing selectors, box model,
+						backgrounds, flexbox, grid, animations, media queries, tables, and
+						testimonials.
+					</p>
+					<div class="header-btns">
+						<button class="header-btn-start">
+							<span>Get Started</span>
+							<img
+								class="header-btn-start_icon"
+								src="./images/icons/Line-Arrow-Right.svg"
+								alt="Line to Right"
+							/>
+						</button>
+						<button class="header-btn-examples">View Examples</button>
+					</div>
+				</div>
+			</div>
+		</header>
+	</body>
 </html>
