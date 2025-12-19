@@ -28,7 +28,7 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 	justify-items: stretch;
-	gap: 20px;
+	gap: 30px;
 }
 .concept-item {
 	display: flex;
@@ -38,18 +38,38 @@
 	align-items: flex-start;
 	padding: 20px;
 	background-color: #fff;
-	border: 0.5px solid #84838342;
+	border: 0.5px solid #8483835e;
 	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease;
 }
+
 .concept-item-icon {
+	transition: all 0.3s ease;
+	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 55px;
-	height: 55px;
+	width: 45px;
+	height: 45px;
 	border-radius: 20%;
 	color: #fff;
+	margin-bottom: 20px;
 }
+
+.concept-item-circle {
+	position: absolute;
+	top: -65px;
+	right: -65px;
+	background-color: rgb(246 162 255 / 41%);
+	width: 135px;
+	height: 135px;
+	border-radius: 50%;
+	opacity: 0;
+	transition: all 0.8s ease;
+}
+
 .concept-item-title {
 	font-size: 20px;
 	font-weight: 700;
@@ -78,4 +98,18 @@
 }
 .concept-item-icon_code {
 	background-color: #3a3af4;
+}
+
+/* -----Animations------- */
+.concept-item:hover {
+	box-shadow: 0px 11px 13px 0px rgb(0 0 0 / 37%);
+}
+
+.concept-item:hover .concept-item-icon {
+	transform: scale(1.1) rotate(10deg);
+}
+
+.concept-item:hover .concept-item-circle {
+	transform: scale(1.1) translate(-40px, 40px);
+	opacity: 1;
 }
