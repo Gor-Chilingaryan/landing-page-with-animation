@@ -1,0 +1,49 @@
+.course-rating_section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	max-width: 1200px;
+	margin: 100px auto;
+	padding: 0 20px;
+}
+
+.course-rating_tab {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1 200px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 250px;
+	min-height: 200px;
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px double rgb(207 207 207);
+	background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.course-rating_icon_circle {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+	width: 70px;
+	height: 70px;
+}
+.course-rating_icon {
+	width: 35px;
+	height: 35px;
+}
+
+.course-rating_count {
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.course-rating_about {
+	font-weight: 500;
+	color: #64748b;
+}

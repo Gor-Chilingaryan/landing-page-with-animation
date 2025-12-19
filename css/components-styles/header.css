@@ -1,7 +1,10 @@
 /* ---------Header background------ */
 .header-wrapper {
 	position: relative;
-	background-image: url('../images/background/header-background.svg');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../../images/background/header-background.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -39,32 +42,35 @@
 }
 
 /* --------Header------- */
-.container {
+.header-container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: nowrap;
 
-	margin: 100px 132px;
-	width: 1208px;
 	font-size: 16px;
 	color: #fff;
+
+	margin: 100px auto;
+	max-width: 1200px;
+	width: 100%;
+	padding: 0 30px;
 }
 
-.header-title-container {
+.header-title_container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: nowrap;
-}
-.header-title-container {
-	animation: header-slide-up 3s ease-in-out infinite;
+
 	border: 2px solid rgba(205, 183, 211, 0.688);
 	border-radius: 25px;
 	margin: 0 0 24px;
 	padding: 8px 16px;
+
+	animation: header-slide-up 3s ease-in-out infinite;
 }
 
 @keyframes header-slide-up {
@@ -83,13 +89,14 @@
 	height: 14px;
 	margin: 0 5px 0 -3px;
 }
-.header-title-paragraph {
+.header-title_paragraph {
 	margin: 0 0 24px;
 	width: 347px;
 }
 .header-description {
 	text-align: center;
 	justify-content: center;
+
 	margin: 0 0 30px;
 	width: 655px;
 	height: 48px;
@@ -100,49 +107,52 @@
 	justify-content: center;
 }
 
-.header-btn-start {
+.header-btn_start {
 	width: 182px;
 	height: 60px;
 	font-size: 16px;
+	margin: 10px;
+
 	border-radius: 10px;
 	border: 1px solid #ffffff;
 	color: #6366f1;
-	margin: 10px;
 	transition: all 0.4s ease;
 }
-.header-btn-start:hover {
+.header-btn_start:hover {
 	transform: translateY(-4px);
 	box-shadow: 0px 10px 11px 4px rgb(23 24 45 / 50%);
 }
 
-.header-btn-start_icon {
+.header-btn_start__icon {
 	position: relative;
-	width: 18px;
-	height: 18px;
-	transition: all 0.4s ease;
 	top: 3px;
 	left: 2px;
+	width: 18px;
+	height: 18px;
+
+	transition: all 0.4s ease;
 }
-.header-btn-start:hover .header-btn-start_icon {
+.header-btn_start:hover .header-btn_start__icon {
 	transform: translateX(4px);
 }
 
-.header-btn-examples {
+.header-btn_examples {
 	position: relative;
 	width: 182px;
 	height: 60px;
+	padding: 16px 32px;
+	margin: 10px;
 	font-size: 16px;
 	border-radius: 10px;
 	border: 2px solid #ffffff1a;
 	background-color: #ffffff1a;
 	color: white;
-	padding: 16px 32px;
-	margin: 10px;
+
 	transition: all 0.4s ease;
-	cursor: pointer;
 	z-index: 0.1;
+	cursor: pointer;
 }
-.header-btn-examples:hover {
+.header-btn_examples:hover {
 	transform: translateY(-4px);
 	background: rgba(255, 255, 255, 0.3);
 }
