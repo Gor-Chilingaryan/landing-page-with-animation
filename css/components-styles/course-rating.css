@@ -21,6 +21,7 @@
 	border-radius: 10px;
 	border: 1px double rgb(207 207 207);
 	background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .course-rating_icon_circle {
@@ -46,4 +47,8 @@
 .course-rating_about {
 	font-weight: 500;
 	color: #64748b;
+}
+
+.course-rating_tab:hover {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }

@@ -108,6 +108,7 @@
 }
 
 .header-btn_start {
+	position: relative;
 	width: 182px;
 	height: 60px;
 	font-size: 16px;
@@ -117,6 +118,7 @@
 	border: 1px solid #ffffff;
 	color: #6366f1;
 	transition: all 0.4s ease;
+	z-index: 0.1;
 }
 .header-btn_start:hover {
 	transform: translateY(-4px);
