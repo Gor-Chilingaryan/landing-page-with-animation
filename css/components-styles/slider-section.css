@@ -1,0 +1,85 @@
+.slider_section {
+	margin: 100px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.slider-section_title__side {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.slider-section_title {
+	font-size: 40px;
+	font-weight: 800;
+	color: #1e293b;
+}
+
+.slider-section_description {
+	margin-top: 15px;
+	font-size: 20px;
+	color: #64748b;
+}
+
+.slider-content_wrapper {
+	height: 350px;
+	width: 700px;
+	padding: 20px;
+	border: 2px solid #adf4ff85;
+	border-radius: 20px;
+	box-shadow: 0 0 9px 11px rgb(125 215 255 / 10%);
+}
+
+.slider-content_icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.slider-content_stars {
+	margin-bottom: 15px;
+}
+
+.slider-content_description {
+	font-size: 20px;
+	line-height: 1.8;
+	color: #334155;
+}
+
+.slider-about {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.slider-about-user_img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 3px solid #628a8e6b;
+	margin-right: 10px;
+}
+
+.slider-about_info {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.slider-about-user_name {
+	font-weight: 700;
+	color: #1e293b;
+	margin-bottom: 10px;
+}
+.slider-about-user_job {
+	color: #64748b;
+	font-size: 14px;
+}

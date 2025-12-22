@@ -83,6 +83,7 @@ tr td:first-child {
 	padding: 20px 16px;
 	font-weight: 500;
 	color: #475569;
+  text-align: left;
 }
 
 tr td:not(:first-child) {
