@@ -1,7 +1,7 @@
 @import url(./global.css);
-@import url('../components-styles/header.css');
-@import url('../components-styles/course-rating.css');
-@import url('../components-styles/concept.css');
-@import url('../components-styles/course-price.css');
-@import url('../components-styles/slider-section.css');
-@import url('../components-styles/footer.css');
+@import url('../components-styles/header/header.css');
+@import url('../components-styles/course-rating/course-rating.css');
+@import url('../components-styles/concept/concept.css');
+@import url('../components-styles/couese-price/course-price.css');
+@import url('../components-styles/slider-section/slider-section.css');
+@import url('../components-styles/footer/footer.css');

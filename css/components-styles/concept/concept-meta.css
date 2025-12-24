@@ -1,0 +1,12 @@
+.concept-item:hover {
+	box-shadow: 0px 11px 13px 0px rgb(0 0 0 / 37%);
+}
+
+.concept-item:hover .concept-item-icon {
+	transform: scale(1.1) rotate(10deg);
+}
+
+.concept-item:hover .concept-item-circle {
+	transform: scale(1.1) translate(-40px, 40px);
+	opacity: 1;
+}
