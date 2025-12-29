@@ -1,6 +1,7 @@
-@import url(./slider-section-meta.css);
+@import url(./slider-section__adaptive.css);
 
 .slider_section {
+
 	margin: 100px auto;
 	display: flex;
 	flex-direction: column;

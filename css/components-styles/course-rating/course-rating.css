@@ -1,3 +1,5 @@
+@import url(./course-rating__adaptive.css);
+
 .course-rating_section {
 	display: flex;
 	flex-wrap: wrap;
@@ -15,7 +17,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	max-width: 250px;
+	max-width: auto;
 	min-height: 200px;
 	padding: 15px;
 	border-radius: 10px;
